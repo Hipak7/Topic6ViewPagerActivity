@@ -11,7 +11,6 @@ import com.softwarica.androidsecondassignment.hipak.fragments.area;
 import com.softwarica.androidsecondassignment.hipak.fragments.simpleinterest;
 import com.softwarica.androidsecondassignment.hipak.fragments.palindrome;
 import com.softwarica.androidsecondassignment.hipak.fragments.armstrong;
-import com.softwarica.androidsecondassignment.hipak.fragments.area;
 import com.softwarica.androidsecondassignment.hipak.fragments.swapnumbers;
 import com.softwarica.androidsecondassignment.hipak.fragments.automorphic;
 
