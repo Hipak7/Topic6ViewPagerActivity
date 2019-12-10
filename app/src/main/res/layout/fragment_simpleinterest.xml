@@ -12,7 +12,7 @@
     android:layout_height="wrap_content"
     android:id="@+id/etPrincipal"
     android:hint="      Enter principal"
-    android:textColor="#FFFFFF"
+    android:textColor="#FFFFFFFF"
     android:layout_gravity="center"
     android:textStyle="bold"/>
 <EditText
@@ -20,7 +20,7 @@
     android:layout_height="wrap_content"
     android:id="@+id/etTime"
     android:hint="      Enter time"
-    android:textColor="#FFFFFF"
+    android:textColor="#FFFFFFFF"
     android:layout_gravity="center"
     android:textStyle="bold"/>
 <EditText
@@ -28,7 +28,7 @@
     android:layout_height="wrap_content"
     android:id="@+id/etRate"
     android:hint="      Enter rate"
-    android:textColor="#FFFFFF"
+    android:textColor="#FFFFFFFF"
     android:layout_gravity="center"
     android:textStyle="bold"/>
 
@@ -39,7 +39,7 @@
     android:id="@+id/btnSI"
     android:layout_gravity="center"
     android:background="#2196F3"
-    android:textColor="#FFFFFF"
+    android:textColor="#FFFFFFFF"
     android:textSize="20sp"/>
 
 <TextView

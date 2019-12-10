@@ -15,7 +15,7 @@
         android:layout_marginLeft="60dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:background="#FFFFFF"
+        android:background="#FFFFFFFF"
         android:text="Choose Any from the following Operations!"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="15dp"
@@ -39,14 +39,14 @@
             android:text="Area of circle"
             android:textAllCaps="false"
             android:layout_marginTop="5dp"
-            android:textColor="#FFFFFF" />
+            android:textColor="#FFFFFFFF" />
 
         <Button
             android:id="@+id/btnPalindrome"
             style="@style/button"
             android:text="Palindrome"
             android:textAllCaps="false"
-            android:textColor="#FFFFFF"
+            android:textColor="#FFFFFFFF"
             android:background="#009688"
             android:layout_margin="5dp"/>
         <Button
@@ -54,7 +54,7 @@
             style="@style/button"
             android:text="Simple Interest"
             android:textAllCaps="false"
-            android:textColor="#FFFFFF"
+            android:textColor="#FFFFFFFF"
             android:background="#2196F3"
             android:layout_margin="5dp"
             android:padding="3dp"/>
@@ -67,7 +67,7 @@
             android:text="Armstrong"
             style="@style/button"
             android:textAllCaps="false"
-            android:textColor="#FFFFFF"
+            android:textColor="#FFFFFFFF"
             android:background="#FF9800"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="50dp"
@@ -76,12 +76,11 @@
         <Button
             android:id="@+id/btnAutomorphic"
             style="@style/button"
-            android:layout_height="36dp"
             android:layout_margin="5dp"
             android:background="#9C27B0"
             android:text="Automorphic"
             android:textAllCaps="false"
-            android:textColor="#FFFFFF" />
+            android:textColor="#FFFFFFFF" />
 
 
         <Button
@@ -89,7 +88,7 @@
             android:text="Swapping"
             style="@style/button"
             android:textAllCaps="false"
-            android:textColor="#FFFFFF"
+            android:textColor="#FFFFFFFF"
             android:background="#CDDC39"
             android:layout_margin="5dp"/>
 

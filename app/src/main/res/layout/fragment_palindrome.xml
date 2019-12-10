@@ -14,7 +14,7 @@
         android:hint="Enter any number"
         android:inputType="number"
         android:layout_gravity="center"
-        android:textColor="#FFFFFF"
+        android:textColor="#FFFFFFFF"
         android:textStyle="bold"
 
         />
@@ -25,14 +25,14 @@
         android:layout_height="wrap_content"
         android:text="Check"
         android:layout_gravity="center"
-        android:textColor="#FFFFFF"
+        android:textColor="#FFFFFFFF"
         android:background="#009688"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tvPalindrome"
-        android:textColor="#FFFFFF"
+        android:textColor="#FFFFFFFF"
         android:layout_margin="15dp"
         android:textSize="16dp"/>
 
