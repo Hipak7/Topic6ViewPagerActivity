@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnSwapping.setOnClickListener(this);
     }
 
-    @Override
+    @Override/*Area of Circle*/
     public void onClick(View v) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
