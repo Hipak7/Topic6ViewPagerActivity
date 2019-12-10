@@ -4,27 +4,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".hipak.fragments.area">
+    tools:context=".hipak.fragments.area"
+    android:layout_marginTop="80sp"
+    >
 
     <!-- TODO: Update blank fragment layout -->
     <EditText
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:id="@+id/etRadius"
-        android:hint="Enter radius"/>
+        android:hint="      Enter radius"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
+
         android:layout_height="wrap_content"
         android:id="@+id/btnArea"
         android:text="Calculate Area of Circle"
-        android:textSize="20dp"/>
+        android:layout_gravity="center"
+        android:background="#FFEE3E1A"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvArea"/>
+        android:id="@+id/tvArea"
+        android:textColor="#FFFFFF"
+        android:layout_margin="15dp"
+        android:textSize="16dp"/>
 
 
 </LinearLayout>

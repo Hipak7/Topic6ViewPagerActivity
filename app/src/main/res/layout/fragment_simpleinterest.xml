@@ -4,34 +4,51 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".hipak.fragments.simpleinterest">
+    tools:context=".hipak.fragments.simpleinterest"
+    android:layout_marginTop="80sp">
 
 <EditText
-    android:layout_width="match_parent"
+    android:layout_width="300dp"
     android:layout_height="wrap_content"
     android:id="@+id/etPrincipal"
-    android:hint="Enter principal"/>
+    android:hint="      Enter principal"
+    android:textColor="#FFFFFF"
+    android:layout_gravity="center"
+    android:textStyle="bold"/>
 <EditText
-    android:layout_width="match_parent"
+    android:layout_width="300dp"
     android:layout_height="wrap_content"
     android:id="@+id/etTime"
-    android:hint="Enter time"/>
+    android:hint="      Enter time"
+    android:textColor="#FFFFFF"
+    android:layout_gravity="center"
+    android:textStyle="bold"/>
 <EditText
-    android:layout_width="match_parent"
+    android:layout_width="300dp"
     android:layout_height="wrap_content"
     android:id="@+id/etRate"
-    android:hint="Enter rate"/>
+    android:hint="      Enter rate"
+    android:textColor="#FFFFFF"
+    android:layout_gravity="center"
+    android:textStyle="bold"/>
 
 <Button
-    android:layout_width="match_parent"
+    android:layout_width="200dp"
     android:layout_height="wrap_content"
-    android:text="Calculate SI"
-    android:id="@+id/btnSI"/>
+    android:text="      Calculate "
+    android:id="@+id/btnSI"
+    android:layout_gravity="center"
+    android:background="#2196F3"
+    android:textColor="#FFFFFF"
+    android:textSize="20sp"/>
 
 <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:id="@+id/tvSI"/>
+    android:id="@+id/tvSI"
+    android:layout_margin="15dp"
+    android:textSize="16dp"
+    />
 
 
 </LinearLayout>

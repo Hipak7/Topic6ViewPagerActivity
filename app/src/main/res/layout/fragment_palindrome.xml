@@ -3,28 +3,38 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".hipak.fragments.palindrome">
+    tools:context=".hipak.fragments.palindrome"
+    android:layout_marginTop="80sp">
 
     <!-- TODO: Update blank fragment layout -->
     <EditText
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:id="@+id/etPalindrome"
         android:hint="Enter any number"
         android:inputType="number"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+
         />
 
     <Button
-        android:layout_width="match_parent"
+        android:id="@+id/btnPalindrome"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="Check"
-        android:id="@+id/btnPalindrome"
-        />
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="#009688"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvPalindrome"/>
+        android:id="@+id/tvPalindrome"
+        android:textColor="#FFFFFF"
+        android:layout_margin="15dp"
+        android:textSize="16dp"/>
 
 
 </LinearLayout>

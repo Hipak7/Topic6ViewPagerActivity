@@ -6,47 +6,92 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".hipak.hipak.MainActivity"
-    android:layout_gravity="center_horizontal">
+    android:layout_gravity="center_horizontal"
+    android:background="#122196F3">
 
+    <TextView
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:text="Choose Any from the following Operations!"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:textStyle="bold" />
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnCount="3"
         android:rowCount="2"
+        android:layout_gravity="fill"
         >
 
+
         <Button
-            style="@style/button"
             android:id="@+id/btnArea"
+            style="@style/button"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:background="#F44336"
             android:text="Area of circle"
-            />
+            android:textAllCaps="false"
+            android:layout_marginTop="5dp"
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/btnPalindrome"
             style="@style/button"
-            android:text="Palindrome"/>
+            android:text="Palindrome"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:background="#009688"
+            android:layout_margin="5dp"/>
         <Button
             android:id="@+id/btnSI"
             style="@style/button"
-            android:text="Simple Interest"/>
+            android:text="Simple Interest"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:background="#2196F3"
+            android:layout_margin="5dp"
+            android:padding="3dp"/>
+
 
 
 
         <Button
             android:id="@+id/btnArmstrong"
             android:text="Armstrong"
-            style="@style/button"/>
+            style="@style/button"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:background="#FF9800"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"/>
 
         <Button
             android:id="@+id/btnAutomorphic"
+            style="@style/button"
+            android:layout_height="36dp"
+            android:layout_margin="5dp"
+            android:background="#9C27B0"
             android:text="Automorphic"
-            style="@style/button"/>
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
 
 
         <Button
             android:id="@+id/btnSwapping"
             android:text="Swapping"
-            style="@style/button"/>
+            style="@style/button"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:background="#CDDC39"
+            android:layout_margin="5dp"/>
 
 
     </GridLayout>
@@ -55,6 +100,8 @@
         android:layout_width="match_parent"
         android:layout_height="400dp"
         android:orientation="vertical"
-        android:id="@+id/fragmentContainer"/>
+        android:id="@+id/fragmentContainer"
+        android:background="@drawable/backgroud"
+        />
 
 </LinearLayout>

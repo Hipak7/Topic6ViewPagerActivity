@@ -3,26 +3,36 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".hipak.fragments.automorphic">
+    tools:context=".hipak.fragments.automorphic"
+    android:layout_marginTop="80sp">
 
     <EditText
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:id="@+id/etAutomorphic"
         android:hint="Enter any number"
         android:inputType="number"
+        android:textColor="#FFFFFFF"
+        android:layout_gravity="center"
+        android:textStyle="bold"
         />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="Check"
+        android:background="#9C27B0"
+        android:textColor="#FFFFFF"
         android:id="@+id/btnAutomorphic"
+        android:layout_gravity="center"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvAutomorphic"/>
+        android:id="@+id/tvAutomorphic"
+        android:textColor="#FFFFFF"
+        android:layout_margin="15dp"
+        android:textSize="16dp"/>
 
 </LinearLayout>

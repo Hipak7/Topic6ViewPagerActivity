@@ -3,36 +3,44 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".hipak.fragments.swapnumbers">
+    tools:context=".hipak.fragments.swapnumbers"
+    android:layout_marginTop="80sp">
 
     <EditText
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:id="@+id/etFirst"
         android:hint="Enter first number"
         android:inputType="number"
-        />
-
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"/>
 
     <EditText
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:id="@+id/etSecond"
         android:hint="Enter second number"
         android:inputType="number"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFFF"
         />
+
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="Check"
         android:id="@+id/btnSwapping"
+        android:textColor="#FFFFFF"
+        android:background="#CDDC39"
+        android:layout_gravity="center"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvSwapping"/>
-
-
+        android:id="@+id/tvSwapping"
+        android:textColor="#FFFFFF"
+        android:layout_margin="15dp"
+        android:textSize="16dp"/>
 
 </LinearLayout>

@@ -3,27 +3,36 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".hipak.fragments.Armstrong">
-
+    tools:context=".hipak.fragments.armstrong"
+    android:layout_marginTop="80sp">
 
     <EditText
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:id="@+id/etArmstrong"
         android:hint="Enter any number"
         android:inputType="number"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="Check"
         android:id="@+id/btnArmstrong"
+        android:background="#FF9800"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvArmstrong"/>
+        android:id="@+id/tvArmstrong"
+        android:textColor="#FFFFFF"
+        android:layout_margin="15dp"
+        android:textSize="16dp"/>
 
 </LinearLayout>
