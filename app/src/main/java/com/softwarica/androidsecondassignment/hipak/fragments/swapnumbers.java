@@ -20,9 +20,6 @@ public class swapnumbers extends Fragment implements View.OnClickListener {
     private TextView tvSwapping;
     private EditText etFirst,etSecond;
 
-
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
