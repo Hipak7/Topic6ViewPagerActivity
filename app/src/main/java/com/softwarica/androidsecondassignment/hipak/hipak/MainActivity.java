@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import com.softwarica.androidsecondassignment.hipak.fragments.area;
 import com.softwarica.androidsecondassignment.hipak.fragments.simpleinterest;
-import com.softwarica.androidsecondassignment.hipak.fragments.area;
+import com.softwarica.androidsecondassignment.hipak.fragments.palindrome;
 import com.softwarica.androidsecondassignment.hipak.fragments.area;
 import com.softwarica.androidsecondassignment.hipak.fragments.area;
 import com.softwarica.androidsecondassignment.hipak.fragments.area;
@@ -51,6 +51,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 fragmentTransaction.replace(R.id.fragmentContainer, simpleInterest);
                 fragmentTransaction.commit();
                 break;
+            case R.id.btnPalindrome:
+                palindrome palindrome = new palindrome();
+                fragmentTransaction.replace(R.id.fragmentContainer, palindrome);
+                fragmentTransaction.commit();
+                break;
+
         }
     }
 }
