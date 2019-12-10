@@ -12,7 +12,9 @@ import com.softwarica.androidsecondassignment.hipak.fragments.simpleinterest;
 import com.softwarica.androidsecondassignment.hipak.fragments.palindrome;
 import com.softwarica.androidsecondassignment.hipak.fragments.armstrong;
 import com.softwarica.androidsecondassignment.hipak.fragments.area;
-import com.softwarica.androidsecondassignment.hipak.fragments.area;
+import com.softwarica.androidsecondassignment.hipak.fragments.swapnumbers;
+import com.softwarica.androidsecondassignment.hipak.fragments.automorphic;
+
 import com.softwarica.androidsecondassignment.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -61,6 +63,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 fragmentTransaction.replace(R.id.fragmentContainer, armstrong);
                 fragmentTransaction.commit();
                 break;
+            case R.id.btnSwapping:
+                swapnumbers swapping = new swapnumbers();
+                fragmentTransaction.replace(R.id.fragmentContainer, swapping);
+                fragmentTransaction.commit();
+                break;
+            case R.id.btnAutomorphic:
+                automorphic automorphic = new automorphic();
+                fragmentTransaction.replace(R.id.fragmentContainer, automorphic);
+                fragmentTransaction.commit();
+                break;
+
+
 
         }
     }
