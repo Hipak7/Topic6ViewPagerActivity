@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import com.softwarica.androidsecondassignment.hipak.fragments.area;
-import com.softwarica.androidsecondassignment.hipak.fragments.area;
+import com.softwarica.androidsecondassignment.hipak.fragments.simpleinterest;
 import com.softwarica.androidsecondassignment.hipak.fragments.area;
 import com.softwarica.androidsecondassignment.hipak.fragments.area;
 import com.softwarica.androidsecondassignment.hipak.fragments.area;
@@ -46,8 +46,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 fragmentTransaction.replace(R.id.fragmentContainer, area);
                 fragmentTransaction.commit();
                 break;
-
-
+            case R.id.btnSI:
+                simpleinterest simpleInterest = new simpleinterest();
+                fragmentTransaction.replace(R.id.fragmentContainer, simpleInterest);
+                fragmentTransaction.commit();
+                break;
         }
     }
 }
