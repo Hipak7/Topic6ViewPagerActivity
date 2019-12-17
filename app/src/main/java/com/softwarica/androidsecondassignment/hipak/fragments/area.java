@@ -42,7 +42,7 @@ public class area extends Fragment implements View.OnClickListener{
         float radius=Float.parseFloat(etRadius.getText().toString());
         float area=3.14f*radius*radius;
 
-        tvArea.setText("Area of circle is "+area);
+        tvArea.setText("The area of circle having radius of " + radius + " is : " + area);
 
 
     }

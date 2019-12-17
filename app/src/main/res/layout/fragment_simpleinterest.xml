@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".hipak.fragments.simpleinterest"
-    android:layout_marginTop="80sp">
+    android:layout_marginTop="20sp">
 
 <EditText
     android:layout_width="300dp"
@@ -14,7 +14,8 @@
     android:hint="      Enter principal"
     android:textColor="#FFFFFFFF"
     android:layout_gravity="center"
-    android:textStyle="bold"/>
+    android:textStyle="bold"
+    android:textColorHint="#FFFFFFFF"/>
 <EditText
     android:layout_width="300dp"
     android:layout_height="wrap_content"
@@ -22,7 +23,8 @@
     android:hint="      Enter time"
     android:textColor="#FFFFFFFF"
     android:layout_gravity="center"
-    android:textStyle="bold"/>
+    android:textStyle="bold"
+    android:textColorHint="#FFFFFFFF"/>
 <EditText
     android:layout_width="300dp"
     android:layout_height="wrap_content"
@@ -30,7 +32,8 @@
     android:hint="      Enter rate"
     android:textColor="#FFFFFFFF"
     android:layout_gravity="center"
-    android:textStyle="bold"/>
+    android:textStyle="bold"
+    android:textColorHint="#FFFFFFFF"/>
 
 <Button
     android:layout_width="200dp"

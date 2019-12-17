@@ -43,6 +43,6 @@ public class swapnumbers extends Fragment implements View.OnClickListener {
         second=first-second;
         first=first-second;
 
-        tvSwapping.setText("first number: "+first+ "second number: "+second);
+        tvSwapping.setText("Swapped First number is  "+first+ " and Second number is "+second);
     }
 }

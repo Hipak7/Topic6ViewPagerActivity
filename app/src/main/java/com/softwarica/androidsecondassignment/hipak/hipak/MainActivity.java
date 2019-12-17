@@ -5,8 +5,11 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+
 import com.softwarica.androidsecondassignment.hipak.fragments.area;
 import com.softwarica.androidsecondassignment.hipak.fragments.simpleinterest;
 import com.softwarica.androidsecondassignment.hipak.fragments.palindrome;
@@ -18,6 +21,7 @@ import com.softwarica.androidsecondassignment.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button btnArea, btnPalindrome, btnSI, btnArmstrong, btnAuto, btnSwapping;
+    private EditText etRadius;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnSwapping.setOnClickListener(this);
     }
 
-    @Override/*Area of Circle*/
+    @Override
     public void onClick(View v) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -46,6 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 area area = new area();
                 fragmentTransaction.replace(R.id.fragmentContainer, area);
                 fragmentTransaction.commit();
+
                 break;
             case R.id.btnSI:
                 simpleinterest simpleInterest = new simpleinterest();

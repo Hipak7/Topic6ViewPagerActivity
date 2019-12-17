@@ -54,11 +54,11 @@ public class automorphic extends Fragment implements View.OnClickListener{
         }
         if((num*num)%d==num)
         {
-            tvAuto.setText(num+"\t"+"is Automorphic Number");
+            tvAuto.setText(num+"\t"+"is an Automorphic Number");
         }
         else
         {
-            tvAuto.setText(num+"\t"+"is not Automorphic Number");
+            tvAuto.setText(num+"\t"+"is not an Automorphic Number");
         }
     }
 }

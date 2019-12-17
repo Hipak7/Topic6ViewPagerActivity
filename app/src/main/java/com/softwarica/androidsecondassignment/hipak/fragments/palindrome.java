@@ -53,8 +53,8 @@ public class palindrome extends Fragment implements View.OnClickListener {
 
         // palindrome if orignalInteger and reversedInteger are equal
         if (originalInteger == reversedInteger)
-            tvPalindrome.setText(originalInteger+ " is a palindrome");
+            tvPalindrome.setText(originalInteger+ " is a palindrome number");
         else
-            tvPalindrome.setText(originalInteger + " is not a palindrome.");
+            tvPalindrome.setText(originalInteger + " is not a palindrome number.");
     }
 }
