@@ -51,6 +51,7 @@
     android:id="@+id/tvSI"
     android:layout_margin="15dp"
     android:textSize="16dp"
+    android:textColor="#FFFFFF"
     />
 
 
